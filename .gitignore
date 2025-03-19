@@ -4,3 +4,5 @@ hugging faces/
 vir_env/
 yolo11n.pt
 dataset/
+*.ipynb
+*.h5
