@@ -18,22 +18,27 @@ This project is an Object Detection Web App built using a fine-tuned YOLOv10 mod
 
 ## Setup and Installation  
 ### 1. Clone the Repository  
+```bash
 git clone https://github.com/mohitkumhar/BCCD-Object-Detection.git  
-cd Healthcare_Systems  
+cd Healthcare_Systems
+```
 
 ### 2. Create a Virtual Environment  
+```bash
 python -m venv venv  
 source venv/bin/activate   # On Windows use: .\venv\Scripts\activate  
-
+```
 ### 3. Install Dependencies  
+```bash
 pip install -r requirements.txt  
+```
 
 ## Usage  
 ### 1. Run the App Locally  
 To start the app locally:  
+```bash
 streamlit run app.py  
-# OR  
-gradio app.py  
+```  
 
 ### 2. Upload an Image  
 - The app will display:  
@@ -57,11 +62,12 @@ gradio app.py
 ## Deployment  
 ### 1. Create a Hugging Face Space  
 - Framework: Streamlit  
-- Push the code to the space:  
+- Push the code to the space:
+```bash
 git add .  
 git commit -m "Initial commit"  
 git push  
-
+```
 
 ## Features  
 - Real-time object detection  
